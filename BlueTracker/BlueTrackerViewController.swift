@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  BlueTracker
-//
-//  Created by Juan Navarro on 10/2/19.
-//  Copyright © 2019 Juan Navarro. All rights reserved.
-//
+
 
 import UIKit
 import CoreBluetooth

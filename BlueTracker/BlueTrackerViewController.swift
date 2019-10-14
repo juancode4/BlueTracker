@@ -13,7 +13,7 @@ class BlueTrackerViewController: UITableViewController, CBCentralManagerDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .yellow
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.refresh, target: self, action: #selector(refreshTapped))
         navigationItem.title = "Blue Tracker"
         self.navigationController?.navigationBar.isTranslucent = false
